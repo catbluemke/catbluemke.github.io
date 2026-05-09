@@ -64,3 +64,79 @@ footer {
   body { padding: 4rem 2rem; }
   h1 { font-size: 2.5rem; }
 }
+
+/* Project pages */
+
+.breadcrumb {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.breadcrumb a {
+  color: #555;
+}
+
+.project-header {
+  margin-bottom: 2rem;
+}
+
+.project-meta {
+  color: #555;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.project-text {
+  margin: 2rem 0;
+}
+
+figure {
+  margin: 2.5rem 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+figcaption {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.page-nav {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+/* Projects landing page */
+
+.project-list {
+  margin: 2rem 0;
+}
+
+.project-list li {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.project-list li:last-child {
+  border-bottom: none;
+}
+
+.project-list a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-list a:hover h2 {
+  text-decoration: underline;
+}
