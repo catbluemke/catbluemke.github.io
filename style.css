@@ -140,3 +140,10 @@ figcaption {
 .project-list a:hover h2 {
   text-decoration: underline;
 }
+
+.project-byline {
+  color: #555;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
