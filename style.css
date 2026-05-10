@@ -147,3 +147,37 @@ figcaption {
   margin-top: 0.5rem;
   font-style: italic;
 }
+
+/* News list */
+.news ul {
+  list-style: none;
+  margin: 1rem 0 0;
+}
+
+.news li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.news li:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  color: #555;
+  font-size: 0.85rem;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+  min-width: 7rem;
+}
+
+.news-item {
+  flex: 1;
+  min-width: 200px;
+}
